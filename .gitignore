@@ -1,7 +1,7 @@
 # Hakyll compiled site
 _cache
 _site
-site
+site.exe
 hakyll
 # Haskell
 dist
