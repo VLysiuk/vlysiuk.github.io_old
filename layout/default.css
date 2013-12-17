@@ -81,16 +81,18 @@ a
 {
     text-decoration: none;
     padding: 5px;
-    -moz-transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
+    -moz-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
 }
 
 div#header #medialinks {
-  font-size: 34px;
+  font-size: 38px;
   position: absolute;
   list-style-type: none;
+      padding: 0;
+    margin: 0;
 }
 
 div#header #medialinks ul{
@@ -101,13 +103,11 @@ div#header #medialinks ul{
 }
 
 div#header #medialinks a{
-  color: #FFFFFF;
-  font-family: 'PT Sans Narrow';
-  background-color: #436eaa;
+  background-color: #3e2f2d;
   text-shadow: none;
-
   text-decoration: none;
-  padding: 5px;
+  padding: 0px 0px 0px 3px;
+
   -moz-transition: 0.5s;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -115,8 +115,8 @@ div#header #medialinks a{
 }
 
 div#header #medialinks a:hover{
-  padding-left: 25px;
-  background-color: #436eaa;
+  padding-left: 15px;
+  background-color: #374348;
 }
 
 div#header #medialinks img{
