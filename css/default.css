@@ -24,9 +24,12 @@ div#content{
     color: black;
     background: #F1F1F1;
     background-position: center center;
-    font-size: 16px;
     margin: auto;
     width: 70%;
+
+    font-family: 'Oxygen', sans-serif;
+    font-size: 24px;
+    font-weight: 200;
 }
 
 div#header #navigation {
@@ -115,11 +118,21 @@ div#footer {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 42px;
+    font-weight: 300;
 }
 
 h2 {
-    font-size: 20px;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 26px;
+  margin-top:0px;
+  margin-bottom: 0px;
 }
 
 div.info {
